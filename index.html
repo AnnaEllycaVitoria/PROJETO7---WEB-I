@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+
+    <header>
+        <h1>Cadastro de Usuário</h1>
+    </header>
+
+    <nav>
+        <li><a href="#">Início</a></li> 
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+    </nav>
+
+    <section>
+        <h2>Formulário de Cadastro</h2>
+        <form action="#" method="post">
+            <!-- Nome -->
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <!-- E-mail -->
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <!-- Senha -->
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" name="senha" required><br><br>
+
+            <!-- Gênero -->
+            <label for="genero">Gênero:</label><br>
+            <select id="genero" name="genero" required>
+                <option value="">Selecione...</option>
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+                <option value="outro">Outro</option>
+                <option value="prefiro_nao_dizer">Prefiro não dizer</option>
+            </select><br><br>
+
+            <!-- Interesses -->
+            <label>Interesses:</label><br>
+            <input type="checkbox" id="tecnologia" name="interesses" value="tecnologia">
+            <label for="tecnologia">Tecnologia</label><br>
+
+            <input type="checkbox" id="esportes" name="interesses" value="esportes">
+            <label for="esportes">Esportes</label><br>
+
+            <input type="checkbox" id="musica" name="interesses" value="musica">
+            <label for="musica">Música</label><br>
+
+            <input type="checkbox" id="leitura" name="interesses" value="leitura">
+            <label for="leitura">Leitura</label><br>
+
+            <input type="checkbox" id="Dançar" name="interesses" value="Dançar">
+            <label for="Dançar">Dançar</label><br>
+
+            <input type="checkbox" id="Cozinhar" name="interesses" value="Cozinhar">
+            <label for="Cozinhar">Cozinhar</label><br><br>
+
+
+
+
+            <!-- Biografia -->
+            <label for="biografia">Biografia:</label><br>
+            <textarea id="biografia" name="biografia" rows="5" cols="40"></textarea><br><br>
+
+            <input type="submit" value="Cadastrar">
+        </form>
+    </section>
+
+</body>
+</html>
